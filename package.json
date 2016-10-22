@@ -1,0 +1,27 @@
+{
+  "name": "tweetstream",
+  "version": "0.0.1",
+  "description": "A minimal NodeJS server for emitting realtime Tweets via socket connections.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drm2/tweetstream.git"
+  },
+  "keywords": [
+    "nodejs",
+    "twitter",
+    "tweets",
+    "streams",
+    "realtime",
+    "sockets"
+  ],
+  "author": "David R. Myers II <davidrmyersii@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drm2/tweetstream/issues"
+  },
+  "homepage": "https://github.com/drm2/tweetstream#readme"
+}
