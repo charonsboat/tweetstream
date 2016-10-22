@@ -1,6 +1,7 @@
 var TwitterBot = require('@drm2/twitterbot');
 var dotenv = require('dotenv');
-var io = require('socket.io');
+var server = require('http').createServer();
+var io = require('socket.io')(server);
 
 // load environment vars from file
 dotenv.config();
@@ -19,3 +20,5 @@ stream.on('tweet', function (tweet)
 {
     io.emit('tweet', tweet);
 });
+
+server.listen(process.env.SERVER_PORT);
