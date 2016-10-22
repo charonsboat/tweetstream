@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/drm2/tweetstream/issues"
   },
-  "homepage": "https://github.com/drm2/tweetstream#readme"
+  "homepage": "https://github.com/drm2/tweetstream#readme",
+  "dependencies": {
+    "@drm2/twitterbot": "0.0.6"
+  }
 }
