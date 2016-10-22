@@ -1,0 +1,7 @@
+# Vagrant
+.vagrant
+
+# App
+node_modules
+*.log
+.env
