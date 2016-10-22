@@ -26,6 +26,7 @@
   "homepage": "https://github.com/drm2/tweetstream#readme",
   "dependencies": {
     "@drm2/twitterbot": "0.0.6",
-    "dotenv": "^2.0.0"
+    "dotenv": "^2.0.0",
+    "socket.io": "^1.5.0"
   }
 }
